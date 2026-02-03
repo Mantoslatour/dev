@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Minecraft - Studio</title>
+    <style>
+        body { background-color: #1e1e1e; color: white; font-family: sans-serif; text-align: center; }
+        #ecran-animation { width: 80%; height: 300px; background: #000; margin: 20px auto; border: 4px solid #55aa55; }
+        button { padding: 15px 30px; font-size: 18px; background: #55aa55; color: white; border: none; cursor: pointer; border-radius: 5px; }
+        button:hover { background: #3e7e3e; }
+    </style>
+</head>
+<body>
+    <h1>STUDIO ANIMATION MINECRAFT</h1>
+    <div id="ecran-animation">
+        <!-- Ici apparaîtra ton Steve en 3D plus tard -->
+        <p style="padding-top: 130px;">[ Écran de prévisualisation 3D ]</p>
+    </div>
+    <button onclick="lancer()">LANCER L'ANIMATION</button>
+
+    <script>
+        function lancer() {
+            alert("Connexion au moteur d'animation réussie !");
+        }
+    </script>
+</body>
+</html>
