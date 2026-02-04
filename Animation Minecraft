@@ -1,7 +1,10 @@
-echo "# Animation-Minecraft-index.html" >> README.md 
-git init 
-git add README.md 
-git commit -m "premier commit" 
-git branch -M main 
-git remote add origin https://github.com/Mantoslatour/Animation-Minecraft-index.html.git
- git push -u origin main
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Studio Minecraft</title>
+</head>
+<body>
+    <h1>Bienvenue dans mon Studio !</h1>
+    <p>C'est ici que je vais créer mon empire.</p>
+</body>
+</html>
